@@ -7,7 +7,7 @@ import java.util.Calendar;
 
 public class MyFrame extends JFrame {
 
-//    Calendar calendar;
+    //  Calendar calendar;
     SimpleDateFormat timeFormat;
     SimpleDateFormat dayFormat;
     SimpleDateFormat dateFormat;
@@ -31,7 +31,6 @@ public class MyFrame extends JFrame {
         timeFormat = new SimpleDateFormat("HH:mm:ss");
         dayFormat = new SimpleDateFormat("EEEE");
         dateFormat = new SimpleDateFormat("dd / MMM / yyyy");
-
 
         timeLabel = new JLabel();
         timeLabel.setFont(new Font("Verdana", Font.PLAIN, 50));
